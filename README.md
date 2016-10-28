@@ -5,5 +5,5 @@
 
 
 
-A game. Cantilever. The user controls the ship with the help of keys "arrow to the right", "Arrow to the left."
+A game. Сonsole. The user controls the ship with the help of keys "arrow to the right", "Arrow to the left."
 The ship can produce two rockets after pressing the "space" key.
