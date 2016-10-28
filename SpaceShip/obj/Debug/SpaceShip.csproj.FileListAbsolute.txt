@@ -1,0 +1,6 @@
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.exe.config
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.exe
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\bin\Debug\SpaceShip.pdb
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.exe
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.pdb
+C:\Users\Яков\Desktop\SpaceShip\SpaceShip\obj\Debug\SpaceShip.csprojResolveAssemblyReference.cache
