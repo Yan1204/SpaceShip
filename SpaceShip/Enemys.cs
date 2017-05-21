@@ -24,7 +24,7 @@ namespace SpaceShip
 
             for (int i = 0; i < size; i++)
             {
-                rd = rand.Next(0, 10);
+                rd = rand.Next(0, 20);
 
                 if (rd == 5)
                 {

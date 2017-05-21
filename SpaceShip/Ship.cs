@@ -70,7 +70,7 @@ namespace SpaceShip
                         Setting.getInstance().GameOver = true;
                     }
 
-                    if ((Fill[i, j] != ' ') && (ship[I, J] == ' '))
+                    if ((Fill[i, j] != ' ') && (ship[I, J] == ' ') && (Fill[i, j] != '*'))
                     {
                         continue;
                     }

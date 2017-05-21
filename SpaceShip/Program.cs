@@ -14,20 +14,26 @@ namespace SpaceShip
 
         static void Main(string[] args)
         {
+            //Console.SetBufferSize(150, 50);
+            //Console.SetWindowSize(150, 50);
+
             Thread thread = new Thread(Key);
             thread.Start();
 
-            while (Stop != true)
-            {
-                Console.Clear();
-                fill.Visualize();
-                Thread.Sleep(100);
-            }
+            TimerCallback tm = new TimerCallback(Visualize);
+            // создаем таймер
+            Timer timer = new Timer(tm, 0, 0, 200);
 
+            //fill.Visualize();
+        }
+
+        private static void Visualize(object obj)
+        {
+            Console.Clear();
             fill.Visualize();
         }
 
-        static void Key()
+        private static void Key()
         {
             while (true)
             {

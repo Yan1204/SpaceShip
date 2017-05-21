@@ -89,13 +89,19 @@ namespace SpaceShip
             {
                 case ConsoleKey.RightArrow:
 
-                    ship.StepRight();
+                    if (Setting.getInstance().GameOver == false)
+                    {
+                        ship.StepRight();
+                    }
 
                     break;
 
                 case ConsoleKey.LeftArrow:
 
-                    ship.StepLeft();
+                    if (Setting.getInstance().GameOver == false)
+                    {
+                        ship.StepLeft();
+                    }
 
                     break;
 
@@ -111,7 +117,10 @@ namespace SpaceShip
 
                 case ConsoleKey.Spacebar:
 
-                    ship.Shot();
+                    if (Setting.getInstance().GameOver == false)
+                    {
+                        ship.Shot();
+                    }
 
                     break;
             }
